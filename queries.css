@@ -1,0 +1,84 @@
+/******************************/
+/* Below 1200px (tablets)   */
+/******************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .section {
+    padding: 8rem 2rem;
+  }
+
+  .features {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+
+  .features__img {
+    align-self: center;
+  }
+
+  .footer {
+    padding: 4rem 2rem;
+  }
+}
+
+/******************************/
+/* Below 944px (Tablets)   */
+/******************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav {
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .nav__link {
+    text-align: center;
+  }
+
+  .nav__links {
+    flex: 1;
+  }
+
+  .nav__item {
+    flex: 1;
+    margin-left: 0;
+  }
+
+  .nav.sticky {
+    padding: 0 2rem;
+  }
+}
+
+/******************************/
+/* Below 704px (Smaller Tablets)   */
+/******************************/
+
+@media (max-width: 44em) {
+  .header {
+    height: fit-content;
+  }
+  .header__title {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    row-gap: 4rem;
+    padding: 12rem 0;
+  }
+
+  .header__img {
+    display: none;
+  }
+}
+
+/*******************************/
+/* Below 544px (Phones)   */
+/******************************/
+
+@media (max-width: 34em) {
+}
